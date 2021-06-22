@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Style navbar */
+.navbar {
+  border: 0px !important;
+  min-height: 60px !important;
+  margin: 0px !important;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  font-family: 'Roboto';
+  font-size: large;
+  background-color: honeydew;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+li {
+  float: right;
+}
+
+.navbar a.active_col {
+  background-color: rgb(95, 182, 8);
+  color: aliceblue !important;
+}
+.navbar a.active_col:hover {
+  background-color: rgb(72, 145, 0);
+}
+
+.navbar h1.title {
+  text-align: left;
+  color: rgb(85, 84, 84);
+  margin-left: 25px;
+  size: 50px;
+  font-family: 'Verdana, sans-serif';
+}
+.navbar img {
+  z-index: 100;
+  width: 70px;
+  margin-left: 25px;
+}
+
+li a {
+  display: block;
+  color: rgb(85, 85, 85) !important;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none !important;
+}
+
+li a:hover {
+  background-color: rgb(214, 253, 214);
+}
+
+/* index Style */
+.home_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home_body img {
+  margin: 50px 350px;
+}
+
+#services {
+  margin : 50px auto;
+}
+
+/* Style contact inputs */
+* {
+  box-sizing: border-box;
+}
+
+input[type='text'],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type='email'],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type='submit'] {
+  background-color: #7bdb7f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+input[type='submit']:hover {
+  background-color: #35a33b;
+  transition: all 0.5s;
+}
+
+/* Style the container/contact section */
+.container {
+  background-color: #ffffff;
+  padding: 10px;
+  width: 50%;
+  float: center;
+  margin: 30px auto 50px;
+}
