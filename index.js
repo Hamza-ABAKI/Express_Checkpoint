@@ -7,8 +7,8 @@ let currentHour = new Date().getHours()
 let currentDay = new Date().getDay()
 app.use((req, res, next) => {
   if (
-    currentHour < 9 ||
-    currentHour > 17 ||
+    currentHour <= 8 ||
+    currentHour > 16 ||
     currentDay === 0 ||
     currentDay === 6
   ) {
@@ -18,7 +18,6 @@ app.use((req, res, next) => {
     )
     // res.set('Content-Type', 'text/html')
     // res.send(new Buffer("<img src='" + "./public/Out_Of_Service.jpg" + "'>"))
-
   } else {
     next()
   }
